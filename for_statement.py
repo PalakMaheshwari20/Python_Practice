@@ -30,22 +30,3 @@ for t in tup:
     print(t)
 
 
-######  Tuples  ######
-t = (1,2,3)
-len(t)  #checking length of tuple
-
-#tuple unpacking ->iterating through a sequence that contains tuples, the item can actually be the tuple itself
-list1 = [(2,4),(6,8),(10,12)]
-
-for t in list1:
-    print(t)
-
-#unpacking
-for (t1,t2) in list1:
-    print(t1)
-
-#dictionary unpacking
-d = {'k1':1, 'k2':2, 'k3':3}
-for k,v in d.items():
-    print(k)
-    print(v)
